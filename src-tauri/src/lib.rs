@@ -1,7 +1,7 @@
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
-use tauri::Manager;
+
 
 mod volume_mixer;
 use volume_mixer::{get_audio_sessions, set_mute, set_volume, VolumeMixerState};
